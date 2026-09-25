@@ -1,0 +1,14 @@
+import api from "./api.js";
+
+const userInterface = {
+    async renderizarPensamentos() {
+        const ListaPensamentos = document.getElementById("lista-pensamentos")
+
+        try{
+            const pensamentos = api.buscarPensamentos()
+            ListaPensamentos.forEach(pensamentos => {
+                ListaPensamentos.innerHTML +=
+            })
+        }
+    }
+}
